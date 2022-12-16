@@ -26,8 +26,8 @@ jobs:
       - run:
           name: Test
           command: mvn test
-      - run:
-          store_test_results:
+      
+      - store_test_results:
           path:  ~/resources
 
 # Invoke jobs via workflows
