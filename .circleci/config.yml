@@ -28,7 +28,7 @@ jobs:
           command: mvn test
       - run:
           store_test_results:
-          path: Airport-Pruebas-Unitarias/src/test/resources/
+          path:  ~/resources
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
