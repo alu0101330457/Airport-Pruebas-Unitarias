@@ -25,10 +25,7 @@ jobs:
       # Then run your tests!
       - run:
           name: Test
-          command: mvn verify
-      
-      - store_test_results:
-          path:  target/surefire-reports
+          command: mvn test
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
